@@ -4,6 +4,7 @@
       "codemirror": "python",
       "name": "Python"
     },
-    "path": "day01/src/day01.py"
+    "path": "day01/src/day01.py",
+    "completed": true
   }
 ]
