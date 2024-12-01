@@ -1,19 +1,15 @@
-{ stdenv, powershell }:
+{ stdenv, python3 }:
   stdenv.mkDerivation {
     name = "advent-of-code-2024-day01";
     src = ./src;
 
     buildInputs = [
-      powershell
+      python3
     ];
 
     installPhase = ''
-      mkdir -p $out/{bin,share}
-      cp day01.ps1 $out/share
-
-      cat <<EOF > $out/bin/day01
-      exec "${powershell.outPath}/bin/pwsh" -File "\$(dirname "\$0")/../share/day01.ps1" "\$@"
-      EOF
+      mkdir -p $out/{bin}
+      cp day01.py $out/bin/day01
       chmod +x $out/bin/day01
     '';
   }

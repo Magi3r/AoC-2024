@@ -25,9 +25,9 @@
 
 # Advent of Code 2024
 
-[![Run](https://github.com/fwcd/advent-of-code-2024/actions/workflows/run.yml/badge.svg)](https://github.com/fwcd/advent-of-code-2024/actions/workflows/run.yml)
+[![Run](https://github.com/Magi3r/AoC-2024/actions/workflows/run.yml/badge.svg)](https://github.com/Magi3r/AoC-2024/actions/workflows/run.yml)
 
-My solutions to the [Advent of Code 2024](https://adventofcode.com/2024), written in 25 different programming languages.
+My solutions to the [Advent of Code 2024](https://adventofcode.com/2024).
 
 % for i, day in enumerate(days):
 %   if day:
@@ -55,9 +55,4 @@ Every day is packaged up to take exactly one command-line argument, the input fi
 
 My solutions to the previous challenges can be found here:
 
-- [Advent of Code 2023](https://github.com/fwcd/advent-of-code-2023)
-- [Advent of Code 2022](https://github.com/fwcd/advent-of-code-2022)
-- [Advent of Code 2021](https://github.com/fwcd/advent-of-code-2021)
-- [Advent of Code 2020](https://github.com/fwcd/advent-of-code-2020)
-- [Advent of Code 2019](https://github.com/fwcd/advent-of-code-2019)
-- [Advent of Code 2015](https://github.com/fwcd/advent-of-code-2015)
+- [Advent of Code 2023](https://github.com/Magi3r/AoC-2023)

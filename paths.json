@@ -1,9 +1,9 @@
 [
   {
     "lang": {
-      "codemirror": "powershell",
-      "name": "PowerShell"
+      "codemirror": "python",
+      "name": "Python"
     },
-    "path": "day01/src/day01.ps1"
+    "path": "day01/src/day01.py"
   }
 ]
