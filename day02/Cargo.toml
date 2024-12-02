@@ -1,0 +1,10 @@
+[package]
+name = "day02"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "day02"
+path = "src/day02.rs"

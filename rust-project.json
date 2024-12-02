@@ -1,0 +1,9 @@
+{
+    "crates": [
+        {
+            "root_module": "day02/src/day02.rs",
+            "edition": "2021",
+            "deps": []
+        }
+    ]
+}
