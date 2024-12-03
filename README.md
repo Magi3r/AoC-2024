@@ -7,7 +7,7 @@
 My solutions to the [Advent of Code 2024](https://adventofcode.com/2024).
 
 - [x] [**Day 01**](day01): [Python](day01/src/day01.py)
-- [x] [**Day 02**](day02): [Rust](day02/src/day02.py)
+- [x] [**Day 02**](day02): [Rust](day02/src/day02.rs)
 - [x] [**Day 03**](day03): [DDP](day03/src/day03.ddp)
 
 ## Development

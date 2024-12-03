@@ -12,7 +12,7 @@
       "codemirror": "rust",
       "name": "Rust"
     },
-    "path": "day02/src/day02.py",
+    "path": "day02/src/day02.rs",
     "completed": true
   },
   {
