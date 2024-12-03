@@ -1,0 +1,55 @@
+Binde "Duden/Regex" ein.
+Binde "Duden/Dateisystem" ein.
+Binde "Duden/Ausgabe" ein.
+Binde "Duden/Listen" ein.
+
+Die Funktion part1 mit dem Parameter pfad_zu_input vom Typ Text, gibt eine Zahl zurück, macht:
+    Der Text input ist "".
+    Lies den Text in pfad_zu_input und speichere ihn in input.
+    Die Treffer Liste trefferListe ist alle Treffer "mul\\((\\d+),(\\d+)\\)" input.
+
+    Die Zahl ergebnis ist 0.
+
+    Für jeden Treffer treffer in trefferListe, mache:
+        Die Zahl ersteZahl ist (gruppen von treffer an der Stelle 1) als Zahl.
+        Die Zahl zweiteZahl ist (gruppen von treffer an der Stelle 2) als Zahl.
+        Speichere ergebnis plus (ersteZahl mal zweiteZahl) in ergebnis.
+    Gib ergebnis zurück.
+Und kann so benutzt werden:
+    "die Lösung von Part 1 mit input <pfad_zu_input>" oder 
+    "der Lösung von Part 1 mit input <pfad_zu_input>"
+
+Die Funktion part2 mit dem Parameter pfad_zu_input vom Typ Text, gibt eine Zahl zurück, macht:
+    Der Text input ist "".
+    Lies den Text in pfad_zu_input und speichere ihn in input.
+    Die Text Liste inputListe ist eine leere Text Liste.
+    Speichere (den Text input am Regex "don't\\(\\)" gespalten) in inputListe.
+
+    Speichere inputListe an der Stelle 1 in input.
+    Lösche das Element an der Stelle 1 aus inputListe.
+    
+    Für jeden Text text in inputListe, mache:
+        Die Text Liste temp ist  eine leere Text Liste.
+        Speichere den Text text am Regex "do\\(\\)" gespalten in temp.
+        
+        Lösche das Element an der Stelle 1 aus temp.
+        Für jeden Text tempText in temp, mache:
+            Speichere input verkettet mit tempText in input.
+
+    Die Treffer Liste trefferListe ist alle Treffer "mul\\((\\d+),(\\d+)\\)" input.
+
+    Die Zahl ergebnis ist 0.
+
+    Für jeden Treffer treffer in trefferListe, mache:
+        Die Zahl ersteZahl ist (gruppen von treffer an der Stelle 1) als Zahl.
+        Die Zahl zweiteZahl ist (gruppen von treffer an der Stelle 2) als Zahl.
+        Speichere ergebnis plus (ersteZahl mal zweiteZahl) in ergebnis.
+    Gib ergebnis zurück.
+Und kann so benutzt werden:
+    "die Lösung von Part 2 mit input <pfad_zu_input>" oder 
+    "der Lösung von Part 2 mit input <pfad_zu_input>"
+
+
+Der Text pfad_zu_input ist "../resources/input.txt".
+Schreibe ("Part 1: " verkettet mit (der Lösung von Part 1 mit input pfad_zu_input) als Text) auf eine Zeile.
+Schreibe ("Part 2: " verkettet mit (der Lösung von Part 2 mit input pfad_zu_input) als Text) auf eine Zeile.

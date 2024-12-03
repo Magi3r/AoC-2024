@@ -14,5 +14,13 @@
     },
     "path": "day02/src/day02.py",
     "completed": true
+  },
+  {
+    "lang": {
+      "codemirror": "esolang",
+      "name": "DDP"
+    },
+    "path": "day03/src/day03.ddp",
+    "completed": true
   }
 ]
