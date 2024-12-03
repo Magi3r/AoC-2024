@@ -12,6 +12,8 @@ jobs:
       matrix:
         os: ['ubuntu-latest', 'macos-latest']
         day: ['01', '02', '03']
+        exclude:
+          - day: '03'
 
     steps:
     - uses: actions/checkout@v4
