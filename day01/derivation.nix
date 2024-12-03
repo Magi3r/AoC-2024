@@ -8,8 +8,8 @@
     ];
 
     installPhase = ''
-      mkdir -p $out/{bin}
-      cp day01.py $out/bin/day01
+      mkdir -p $out/bin
+      cp $src/day01.py $out/bin/day01
       chmod +x $out/bin/day01
     '';
   }
