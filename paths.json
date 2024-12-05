@@ -36,7 +36,7 @@
       "codemirror": "ruby",
       "name": "Ruby"
     },
-    "path": "day05/src/day05.go",
-    "completed": false
+    "path": "day05/src/day05.rb",
+    "completed": true
   }
 ]
