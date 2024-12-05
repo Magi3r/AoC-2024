@@ -30,5 +30,13 @@
     },
     "path": "day04/src/day04.go",
     "completed": true
+  },
+  {
+    "lang": {
+      "codemirror": "ruby",
+      "name": "Ruby"
+    },
+    "path": "day05/src/day05.go",
+    "completed": false
   }
 ]
