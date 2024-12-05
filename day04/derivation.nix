@@ -8,13 +8,12 @@
     ];
 
     buildPhase = ''
-      cd $src
-      go build 
+      GOCACHE=$PWD/cache go build -o out/day04 $src/day04.go
+
     '';
 
     installPhase = ''
       mkdir -p $out/bin
-      cp $src/day04 $out/bin/day04
-      chmod +x $out/bin/day04
+      cp out/day04 $out/bin/day04
     '';
   }
