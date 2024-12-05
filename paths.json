@@ -22,5 +22,13 @@
     },
     "path": "day03/src/day03.ddp",
     "completed": true
+  },
+  {
+    "lang": {
+      "codemirror": "go",
+      "name": "Go"
+    },
+    "path": "day04/src/day04.go",
+    "completed": false
   }
 ]
