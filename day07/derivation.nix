@@ -9,7 +9,7 @@
 
     buildPhase = ''
       javac $src/day07.java
-    ''
+    '';
 
     installPhase = ''
       mkdir -p $out/{bin,share}
