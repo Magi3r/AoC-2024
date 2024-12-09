@@ -46,5 +46,13 @@
     },
     "path": "day06/src/day06.lua",
     "completed": true
+  },
+  {
+    "lang": {
+      "codemirror": "java",
+      "name": "Java"
+    },
+    "path": "day07/src/day07.java",
+    "completed": true
   }
 ]

@@ -12,6 +12,7 @@ My solutions to the [Advent of Code 2024](https://adventofcode.com/2024).
 - [x] [**Day 04**](day04): [Go](day04/src/day04.go)
 - [x] [**Day 05**](day05): [Ruby](day05/src/day05.rb)
 - [x] [**Day 06**](day06): [Lua](day06/src/day06.lua)
+- [x] [**Day 07**](day07): [Java](day07/src/day07.java)
 
 ## Development
 
