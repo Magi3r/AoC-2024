@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+cd "$(dirname $0)/.."
+# prepend 0 if necessary
+day = $(/usr/bin/env printf %02d $1)
+mkdir -p ./day$day/{resources,src}
+
+cat ./paths.json | jq '. +   { \
+    "lang": { \
+      "codemirror": "python", \
+      "name": "Python" \
+    }, \
+    "path": "day$day/src/day$day.py", \
+    "completed": false \
+  } \
+}' > ./paths.json

@@ -54,5 +54,13 @@
     },
     "path": "day07/src/day07.java",
     "completed": true
+  },
+  {
+    "lang": {
+      "codemirror": "c",
+      "name": "C"
+    },
+    "path": "day08/src/day08.c",
+    "completed": false
   }
 ]
